@@ -37,5 +37,11 @@ Un tavolo da gioco: fondo di **feltro o legno**, sopra **pannelli color carta**,
 ## Tema chiaro e scuro
 Il fondo è sempre scuro (feltro/legno) e le carte sempre chiare: non esistono due temi. Se la webapp deve avere l'interruttore chiaro/scuro (`CLAUDE.md`), va deciso con l'utente come si traduce: per esempio fondo chiaro di carta nel tema chiaro. Non decidere da soli.
 
-## Cosa NON fa parte dello stile
-Le emoji presenti nei README e in alcune parti dell'interfaccia di quei giochi: nelle webapp nuove l'utente non le vuole (`CLAUDE.md`). Per le icone usare SVG.
+## Le emoji fanno parte dello stile
+In questo stile le **emoji si usano**, come nei tre giochi (eccezione voluta alla regola «niente emoji» del `CLAUDE.md`, che vale per gli altri stili). Dove compaiono nei repo (lette dal codice di `index.html`, `js/data.js`, `js/engine.js`):
+- **Stati e umori dei personaggi** (Fifo Fafo: 😤 😡 🤗 😐 😈).
+- **Effetti ed eventi di gioco** (⚡ 🔥 💥 ⚠ 🚫 🔮 🎯).
+- **Oggetti e luoghi del tema** (🛏 🐱 🪣 🍽 🍬 in Fifo Fafo; 👷 📻 💰 🛒 in Domani Piove).
+- **Pulsanti delle modalità di gioco e strumenti** (🤖 👥 🍿 📡 📊 🔄 ⏭ 📖).
+- **Registro delle mosse e regolamento** (📜 📖 🔎).
+Le emoji si usano insieme alle etichette in testo, non al posto loro, quando serve chiarezza. Usarne di nuove nello stesso modo: una per concetto, sempre la stessa.
