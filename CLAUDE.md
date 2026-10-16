@@ -37,13 +37,17 @@
 - **Niente emoji** nell'interfaccia: per le icone usa SVG.
 - Codice, nomi di file e variabili in inglese.
 - Mobile prima di tutto (controlla a 360px), poi anche schermo largo da PC. Una sola azione principale per schermata.
-- **Tema chiaro di default, tema scuro disponibile**, con un interruttore visibile. La scelta si salva in `localStorage`. Alla prima apertura vale il chiaro, non la preferenza del sistema.
+- **Tema chiaro di default, tema scuro disponibile**, con un interruttore visibile (salvo che lo stile scelto, qui sotto, dica altro e l'utente confermi). La scelta si salva in `localStorage`. Alla prima apertura vale il chiaro, non la preferenza del sistema.
 - Contrasto almeno AA in entrambi i temi (controllalo, soprattutto il viola scuro `#32187b` sul tema scuro), bersagli tocco di almeno 44px.
 
 ### Stile grafico: chiedi sempre
-**A ogni webapp nuova, prima di scrivere codice, chiedi all'utente:** «Uso lo stile Olivieri Domenico (quello del sito e del portfolio) o ne facciamo uno da zero per questa app?». Non dare per scontato nessuno dei due.
-- **Stile Olivieri**: i dettagli (colori, font, componenti) sono in `docs/STILE-OLIVIERI.md`. Colori principali: `#32187b` (viola scuro), arancione `#ff893a` con `#ffad4e` e `#ffbd59`, viola `#b289fa` e `#724eb9`. Font dei titoli: Libre Baskerville.
-- **Stile da zero**: proponi palette e font in poche righe e aspetta l'ok.
+**A ogni webapp nuova, prima di scrivere codice, chiedi all'utente quale stile usare.** Non dare per scontato nessuno. Le scelte sono quattro:
+1. **Stile Olivieri Domenico**, quello del sito e del portfolio (`docs/STILE-OLIVIERI.md`): viola scuro `#32187b` e arancione `#ff893a`, font Libre Baskerville per i titoli. Nel tema scuro l'accento è l'arancione.
+2. **Stile Inventa** (`docs/STILE-INVENTA.md`): scuro notturno con accento ciano `#35d0ff`, vetro e bagliori, font Unbounded + Space Grotesk.
+3. **Stile «Tavolo da gioco»** (`docs/STILE-TAVOLO-DA-GIOCO.md`): quello dei giochi da tavolo per i playtest (Fifo Fafo, Cromozapd, Domani Piove): feltro o legno, pannelli color carta, testi grandi, bottoni «tasto fisico». È quello che piace di più all'utente. Chiedi anche quale variante di feltro (legno, verde, blu-verde) o proponi un colore nuovo.
+4. **Uno stile da zero** per quella webapp: proponi palette e font in poche righe e aspetta l'ok.
+
+Per i primi tre, i dettagli e i valori sono nei file indicati: leggili prima di scrivere il codice. Se uno stile prevede un solo tema (scuro o chiaro) e la webapp deve averne due, decidi con l'utente come tradurlo.
 - Qualunque stile: colori e font come variabili CSS in `:root`, mai valori sparsi nel codice. Font inclusi nei file dell'app (self-hosted, licenza OFL), non da CDN, così la PWA funziona offline.
 - I valori marcati «stimato» in `docs/STILE-OLIVIERI.md` non sono verificati: non presentarli come certi.
 - Se un colore non passa il contrasto AA su un fondo, non cambiarlo di nascosto: proponi l'alternativa.

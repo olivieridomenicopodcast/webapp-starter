@@ -40,4 +40,5 @@ I neutri (grigi di bordi e sfondi alternati) non sono stati misurati: chiedere p
 Diretto e chiaro («Non devi preoccuparti di nulla, lascia tutto a me!», «Iniziamo a collaborare»). Frasi brevi, parole importanti in grassetto, invito all'azione nei pulsanti. Per le webapp: amichevole e ironico, come da `CLAUDE.md`.
 
 ## Tema scuro
-Il sito e il portfolio sono solo chiari. Per il tema scuro delle webapp non esiste un riferimento: va proposto da zero e fatto approvare. Attenzione al contrasto del `#32187b` su fondo scuro: sul tema scuro usare per testi e bordi il viola chiaro `#b289fa`, previa approvazione.
+Il sito e il portfolio sono solo chiari. Per il tema scuro l'utente ha deciso: **l'accento diventa l'arancione** (`#ff893a`, con `#ffad4e` e `#ffbd59` per le sfumature) per testi in evidenza, bordi, link e pulsanti. Il viola `#32187b` su fondo scuro avrebbe poco contrasto, quindi non si usa per testi e bordi.
+I colori dello **sfondo scuro** non sono stati decisi: vanno proposti (pochi, in poche righe) e fatti approvare. Controllare il contrasto AA del testo sul fondo scelto.
