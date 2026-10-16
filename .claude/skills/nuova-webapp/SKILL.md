@@ -11,7 +11,7 @@ Prima di scrivere codice, il progetto deve avere le sue istruzioni. Mezz'ora ora
 Chiedi (in italiano, in parole semplici) e fermati ad aspettare le risposte:
 1. **Cos'è**: cosa fa, per chi, dove la userà (telefono, PC, installata come app).
 2. **Dati**: cosa salva e dove. Default: `localStorage` + Gist privato. Se serve login, più utenti o un database, dillo subito: esce dal default.
-3. **Design**: di base valgono font, colori e tema del `CLAUDE.md`. Chiedi solo se questa webapp deve avere uno stile diverso (per esempio se è per un'altra persona o un altro brand).
+3. **Design**: chiedi sempre, senza dare nulla per scontato: «Uso lo stile Olivieri Domenico (`docs/STILE-OLIVIERI.md`) o ne facciamo uno da zero per questa app?». Se da zero, proponi palette e font in poche righe e aspetta l'ok.
 4. **Decisioni già prese**: cose che non vanno rimesse in discussione.
 5. **Fuori dal perimetro**: cosa la webapp NON fa.
 

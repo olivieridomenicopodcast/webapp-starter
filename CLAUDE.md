@@ -40,18 +40,13 @@
 - **Tema chiaro di default, tema scuro disponibile**, con un interruttore visibile. La scelta si salva in `localStorage`. Alla prima apertura vale il chiaro, non la preferenza del sistema.
 - Contrasto almeno AA in entrambi i temi (controllalo, soprattutto il viola scuro `#32187b` sul tema scuro), bersagli tocco di almeno 44px.
 
-### Font
-- **Libre Baskerville** come font di default. Incluso nei file dell'app (self-hosted, con licenza OFL) e non caricato da CDN, così funziona anche offline come PWA.
-
-### Colori del brand (variabili CSS in `:root`, mai valori scritti a mano sparsi nel codice)
-| Ruolo | Colore |
-|---|---|
-| Principale | `#32187b` |
-| Arancione | `#ff893a`, con sfumature `#ffad4e` e `#ffbd59` |
-| Viola | `#b289fa` e `#724eb9` |
-
-- I colori neutri (sfondi, testi, bordi) e lo stile generale (card, pulsanti, ombre) si prendono da **olivieridomenico.it**. Finché non sono stati verificati sul sito, non inventarli: chiedi.
-- Se un colore del brand non passa il contrasto AA su un fondo, non cambiarlo di nascosto: proponi l'alternativa.
+### Stile grafico: chiedi sempre
+**A ogni webapp nuova, prima di scrivere codice, chiedi all'utente:** «Uso lo stile Olivieri Domenico (quello del sito e del portfolio) o ne facciamo uno da zero per questa app?». Non dare per scontato nessuno dei due.
+- **Stile Olivieri**: i dettagli (colori, font, componenti) sono in `docs/STILE-OLIVIERI.md`. Colori principali: `#32187b` (viola scuro), arancione `#ff893a` con `#ffad4e` e `#ffbd59`, viola `#b289fa` e `#724eb9`. Font dei titoli: Libre Baskerville.
+- **Stile da zero**: proponi palette e font in poche righe e aspetta l'ok.
+- Qualunque stile: colori e font come variabili CSS in `:root`, mai valori sparsi nel codice. Font inclusi nei file dell'app (self-hosted, licenza OFL), non da CDN, così la PWA funziona offline.
+- I valori marcati «stimato» in `docs/STILE-OLIVIERI.md` non sono verificati: non presentarli come certi.
+- Se un colore non passa il contrasto AA su un fondo, non cambiarlo di nascosto: proponi l'alternativa.
 
 ## 6. Sicurezza: regole non negoziabili
 - Il repo può essere pubblico: mai token, chiavi o password nel codice, nei commit, negli esempi o nei log.
