@@ -1,8 +1,8 @@
 # Stile Inventa
 
-Lo stile della webapp **Inventa** (hub di strumenti: atlante, suoni, sprite, ecc.). Si usa **solo se l'utente lo conferma** per quella webapp (vedi `CLAUDE.md`, sezione 5).
+Lo stile della webapp **Inventa**: una raccolta di giochi e giocattoli procedurali (generati da un seme), presentata in un hub con una carta per ogni gioco. Dentro ci sono Mondi, Riff, Chimere, Sprite, Suoni, Città, Camion, Shred, Eco, AEGE, Atlante e Rimini 3 giorni. Slogan dell'hub: «Una fabbrica di cose procedurali». Si usa **solo se l'utente lo conferma** per quella webapp (vedi `CLAUDE.md`, sezione 5).
 
-Fonte: `shared.css` e `fonts/` del repo `Inventa`. I valori sono copiati da lì, non stimati. `shared.css` è condiviso da hub e strumenti: alcune pagine possono aggiungere regole proprie, che qui non sono state censite.
+Fonte: `index.html`, `shared.css` e `fonts/` del repo `Inventa`. I valori sono copiati da lì, non stimati. `shared.css` è condiviso dall'hub e dai singoli giochi: ogni gioco può aggiungere regole proprie, che qui non sono state censite.
 
 ## L'idea
 Scuro, notturno, con un accento **ciano luminoso**: vetro smerigliato, bordi sottili, bagliori. Bottoni a pillola, testi in maiuscolo con spaziatura larga.
@@ -16,6 +16,13 @@ Scuro, notturno, con un accento **ciano luminoso**: vetro smerigliato, bordi sot
 | `--ac` | `#35d0ff` | accento ciano |
 | `--glass` | `rgba(14,18,36,.62)` | pannelli di vetro |
 | `--line` | `rgba(255,255,255,.12)` | bordi |
+
+## L'hub (pagina iniziale)
+- **Cielo stellato** a tutto schermo (canvas) con **nebulose** di sfumature viola, rosso e azzurro dietro.
+- **Logo gigante** «INVENTA» con sfumatura bianco-azzurro-viola ed effetto *glitch* rosa e ciano che compare ogni tanto.
+- **Una carta per gioco** in griglia (minimo 310px): vetro sfocato, angoli 26px, bordo e bagliore nel **colore del gioco** (variabile `--c` diversa per ogni carta: azzurro, rosso, verde, viola, giallo, arancio, ecc.), inclinazione 3D che segue il tocco o il mouse, entrata dal basso una dopo l'altra. Dentro: icona 78px, titolo Unbounded, descrizione breve, etichetta in pillola e freccia «vai».
+- **Carte «presto»** (`.soon`): più spente, senza interazione.
+- Ogni gioco ha un **proprio colore d'accento** sopra la base scura comune: il ciano `#35d0ff` è quello di default, non l'unico.
 
 ## Font (inclusi nel repo, self-hosted)
 - **Unbounded** (titoli, bottoni, marchio), pesi 300, 600, 900.

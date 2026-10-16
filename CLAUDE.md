@@ -43,7 +43,7 @@
 ### Stile grafico: chiedi sempre
 **A ogni webapp nuova, prima di scrivere codice, chiedi all'utente quale stile usare.** Non dare per scontato nessuno. Le scelte sono quattro:
 1. **Stile Olivieri Domenico**, quello del sito e del portfolio (`docs/STILE-OLIVIERI.md`): viola scuro `#32187b` e arancione `#ff893a`, font Libre Baskerville per i titoli. Nel tema scuro l'accento è l'arancione.
-2. **Stile Inventa** (`docs/STILE-INVENTA.md`): scuro notturno con accento ciano `#35d0ff`, vetro e bagliori, font Unbounded + Space Grotesk.
+2. **Stile Inventa** (`docs/STILE-INVENTA.md`): quello della raccolta di giochi procedurali Inventa. Scuro notturno con accento ciano `#35d0ff` (e un colore per ogni gioco), vetro e bagliori, font Unbounded + Space Grotesk.
 3. **Stile «Tavolo da gioco»** (`docs/STILE-TAVOLO-DA-GIOCO.md`): quello dei giochi da tavolo per i playtest (Fifo Fafo, Cromozapd, Domani Piove): feltro o legno, pannelli color carta, testi grandi, bottoni «tasto fisico», **con le emoji**. È quello che piace di più all'utente. Chiedi anche quale variante di feltro (legno, verde, blu-verde) o proponi un colore nuovo.
 4. **Uno stile da zero** per quella webapp: proponi palette e font in poche righe e aspetta l'ok.
 
