@@ -21,7 +21,7 @@ Pensato per webapp statiche (HTML/CSS/JS, PWA) con dati in `localStorage` e sinc
 | `.claude/skills/sync-gist` | Come salvare e sincronizzare i dati col Gist, in sicurezza |
 | `.claude/skills/check-sicurezza` | Controllo di base in sola lettura prima di pubblicare |
 | `sprint/` | Una scheda per ogni modifica |
-| `docs/` | Prompt in 4 parti e prompt del secondo parere |
+| `docs/` | Guida rapida in PDF, prompt in 4 parti e prompt del secondo parere |
 | `roadmap.md` | Cosa è previsto e cosa è fatto |
 | `extra-supabase/` | Solo se una webapp avrà un database Supabase: non viene caricato di default |
 
