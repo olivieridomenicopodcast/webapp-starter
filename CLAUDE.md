@@ -37,8 +37,8 @@
 - **Niente emoji** nell'interfaccia: per le icone usa SVG.
 - Codice, nomi di file e variabili in inglese.
 - Mobile prima di tutto (controlla a 360px), poi anche schermo largo da PC. Una sola azione principale per schermata.
-- **Tema scuro di default, tema chiaro disponibile**, con un interruttore visibile. La scelta si salva in `localStorage`. Alla prima apertura vale lo scuro, non la preferenza del sistema.
-- Contrasto almeno AA in entrambi i temi (controllalo, soprattutto il viola scuro su sfondo scuro), bersagli tocco di almeno 44px.
+- **Tema chiaro di default, tema scuro disponibile**, con un interruttore visibile. La scelta si salva in `localStorage`. Alla prima apertura vale il chiaro, non la preferenza del sistema.
+- Contrasto almeno AA in entrambi i temi (controllalo, soprattutto il viola scuro `#32187b` sul tema scuro), bersagli tocco di almeno 44px.
 
 ### Font
 - **Libre Baskerville** come font di default. Incluso nei file dell'app (self-hosted, con licenza OFL) e non caricato da CDN, così funziona anche offline come PWA.

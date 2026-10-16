@@ -12,7 +12,7 @@ Una modifica non è finita quando il codice è scritto: è finita quando chi arr
 - Se la richiesta ha una sezione VERIFICA, eseguila punto per punto e riporta il risultato vero (valori salvati, markup, comportamento), non cosa dovrebbe succedere.
 - Se hai toccato `index.html`, `style.css`, `app.js` o le icone: aumenta la versione della cache in `sw.js`, altrimenti l'app installata continua a mostrare la vecchia versione.
 - Se hai toccato i dati salvati o il Gist: verifica che i dati già esistenti si leggano ancora (compatibilità all'indietro).
-- Controlla la schermata a 360px e su schermo largo, in tema scuro (default) e chiaro.
+- Controlla la schermata a 360px e su schermo largo, in tema chiaro (default) e scuro.
 - Se la richiesta era copiare o portare qualcosa, confronta con l'originale e riporta **ogni** differenza, anche voluta. Non lasciare fuori niente senza averlo chiesto.
 - Controlla che nel codice non sia finito nessun token o chiave (`git diff` + cerca `ghp_`, `github_pat_`, `Bearer `).
 - Se qualcosa non riesci a verificarlo, scrivilo. Non dichiarare risolto ciò che non hai verificato.
