@@ -12,7 +12,8 @@ Una modifica non è finita quando il codice è scritto: è finita quando chi arr
 - Se la richiesta ha una sezione VERIFICA, eseguila punto per punto e riporta il risultato vero (valori salvati, markup, comportamento), non cosa dovrebbe succedere.
 - Se hai toccato `index.html`, `style.css`, `app.js` o le icone: aumenta la versione della cache in `sw.js`, altrimenti l'app installata continua a mostrare la vecchia versione.
 - Se hai toccato i dati salvati o il Gist: verifica che i dati già esistenti si leggano ancora (compatibilità all'indietro).
-- Controlla la schermata a 360px, in tema chiaro e scuro.
+- Controlla la schermata a 360px e su schermo largo, in tema scuro (default) e chiaro.
+- Se la richiesta era copiare o portare qualcosa, confronta con l'originale e riporta **ogni** differenza, anche voluta. Non lasciare fuori niente senza averlo chiesto.
 - Controlla che nel codice non sia finito nessun token o chiave (`git diff` + cerca `ghp_`, `github_pat_`, `Bearer `).
 - Se qualcosa non riesci a verificarlo, scrivilo. Non dichiarare risolto ciò che non hai verificato.
 
@@ -34,5 +35,5 @@ Chiudi sempre con queste quattro righe, brevi:
 - **Cosa resta aperto** o da decidere, se c'è.
 
 ## Vincoli
-- Non fare commit o push se non richiesto.
+- Commit e push li fai tu, **dopo** la verifica e la scheda: un commit per modifica, messaggio chiaro in italiano, sul ramo di lavoro indicato dalla sessione. Mai riscrivere la cronologia: ogni modifica deve potersi annullare con `git revert`. Nel resoconto scrivi l'hash del commit.
 - Non allungare il lavoro con migliorie non chieste: se ne vedi, elencale in «Cosa resta aperto».

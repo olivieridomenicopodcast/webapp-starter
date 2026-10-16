@@ -9,7 +9,7 @@ Il modello standard: i dati stanno in `localStorage` sul dispositivo; con **Pull
 
 ## Il token
 - Serve un **token classic** con il solo permesso `gist`. I token «fine-grained» non supportano i Gist.
-- Si inserisce dalle impostazioni dell'app (⚙️) e vive solo in `localStorage`. Mai nel codice, mai in un commit, mai in un log o in un messaggio di errore.
+- Si inserisce dalle impostazioni dell'app (icona SVG, niente emoji) e vive solo in `localStorage`. Mai nel codice, mai in un commit, mai in un log o in un messaggio di errore.
 - Il campo del token è di tipo `password`. Aggiungi un pulsante «Rimuovi token».
 - Spiega all'utente: se il token trapela, si revoca da GitHub › Settings › Developer settings.
 
